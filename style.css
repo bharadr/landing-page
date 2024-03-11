@@ -1,5 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 
 a {
@@ -27,12 +30,19 @@ a {
 }
 
 .image-section {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
     background-color: #1f2937;
     color: #e5e7eb;
-    padding: 30px 0px;
+    padding: 60px 0px 90px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-content {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
     font-size: 18px;
 }
 
@@ -57,27 +67,43 @@ a {
     color:#7f838b
 }
 
-img {
-    max-width: 300px;
+.image-section img {
+    max-width: 400px;
     max-height: 300px;
 }
 
+img {
+    max-width: 250px;
+    max-height: 200px;
+    border-radius: 12px;
+}
+
 .quote-section {
-    text-align: center;
     background-color: #e5e7eb;
     padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-wrapper {
+    max-width: 800px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote {
     font-size: 36px;
     font-weight: light;
     font-style: italic;
+    text-align: justify;
 }
 
 .quotee {
     font-size: 24px;
     font-weight: bold;
-    justify-content: end;
+    align-self: flex-end;
 }
 
 .action-section {

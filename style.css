@@ -1,0 +1,44 @@
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+}
+
+.item-section {
+    text-align: center;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.quote-section {
+    text-align: center;
+}
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}

@@ -46,9 +46,20 @@ a {
     font-size: 18px;
 }
 
+.image-content p {
+    text-overflow: wrap;
+}
+
 .item-section {
     text-align: center;
     padding: 50px 0px 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-content {
+    max-width: 800px;
 }
 
 .item-header {
@@ -80,7 +91,7 @@ img {
 
 .quote-section {
     background-color: #e5e7eb;
-    padding: 100px;
+    padding: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,6 +146,7 @@ img {
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
+    padding: 20px;
 }
 
 .hero-main-text {
